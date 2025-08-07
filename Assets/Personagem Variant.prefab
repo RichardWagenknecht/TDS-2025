@@ -1,5 +1,36 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1479908490355261596
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1753487239920523693}
+  m_Layer: 0
+  m_Name: CAMERAhOLDER
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 2147483647
+  m_IsActive: 1
+--- !u!4 &1753487239920523693
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1479908490355261596}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0, y: 0.0377, z: 0.0366}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 9077568803515914638}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &3205472157875111757
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -52,8 +83,36 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4490257326247362, guid: 0d0170f90f65d8e4ca6d763fe907469d, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4490257326247362, guid: 0d0170f90f65d8e4ca6d763fe907469d, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.06
+      objectReference: {fileID: 0}
+    - target: {fileID: 20437472682476688, guid: 0d0170f90f65d8e4ca6d763fe907469d, type: 3}
+      propertyPath: near clip plane
+      value: 0.35
+      objectReference: {fileID: 0}
+    - target: {fileID: 54063890643546284, guid: 0d0170f90f65d8e4ca6d763fe907469d, type: 3}
+      propertyPath: m_ImplicitCom
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 54063890643546284, guid: 0d0170f90f65d8e4ca6d763fe907469d, type: 3}
+      propertyPath: m_ImplicitTensor
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
-    m_AddedGameObjects: []
+    m_AddedGameObjects:
+    - targetCorrespondingSourceObject: {fileID: 5874417170636005059, guid: 0d0170f90f65d8e4ca6d763fe907469d, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1753487239920523693}
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0d0170f90f65d8e4ca6d763fe907469d, type: 3}
+--- !u!4 &9077568803515914638 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 5874417170636005059, guid: 0d0170f90f65d8e4ca6d763fe907469d, type: 3}
+  m_PrefabInstance: {fileID: 3205472157875111757}
+  m_PrefabAsset: {fileID: 0}
