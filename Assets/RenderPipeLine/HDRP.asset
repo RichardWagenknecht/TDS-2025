@@ -17,7 +17,7 @@ MonoBehaviour:
     supportSSR: 0
     supportSSRTransparent: 0
     supportSSAO: 1
-    supportSSGI: 0
+    supportSSGI: 1
     supportSubsurfaceScattering: 1
     sssSampleBudget:
       m_Values: 140000002800000050000000
@@ -52,7 +52,7 @@ MonoBehaviour:
     msaaSampleCount: 1
     supportMotionVectors: 1
     supportDataDrivenLensFlare: 1
-    supportRuntimeAOVAPI: 0
+    supportRuntimeAOVAPI: 1
     supportDitheringCrossFade: 1
     supportTerrainHole: 0
     lightProbeSystem: 0
@@ -90,11 +90,11 @@ MonoBehaviour:
       maxDecalsOnScreen: 512
       maxLightsPerClusterCell: 8
       maxLocalVolumetricFogSize: 0
-      maxLocalVolumetricFogOnScreen: 256
+      maxLocalVolumetricFogOnScreen: 200
     hdShadowInitParams:
       maxShadowRequests: 128
       directionalShadowsDepthBits: 32
-      shadowFilteringQuality: 1
+      shadowFilteringQuality: 0
       areaShadowFilteringQuality: 0
       punctualLightShadowAtlas:
         shadowAtlasResolution: 4096
@@ -135,7 +135,7 @@ MonoBehaviour:
       lutFormat: 48
       bufferFormat: 74
     dynamicResolutionSettings:
-      enabled: 0
+      enabled: 1
       useMipBias: 0
       enableDLSS: 0
       DLSSPerfQualitySetting: 0
@@ -183,7 +183,7 @@ MonoBehaviour:
       ChromaticAberrationMaxSamples: 03000000060000000c000000
     lightSettings:
       useContactShadow:
-        m_Values: 000001
+        m_Values: 000000
         m_SchemaId:
           m_Id: With3Levels
     maximumLODLevel:
@@ -290,7 +290,7 @@ MonoBehaviour:
   allowShaderVariantStripping: 1
   enableSRPBatcher: 1
   availableMaterialQualityLevels: -1
-  m_DefaultMaterialQualityLevel: 4
+  m_DefaultMaterialQualityLevel: 1
   diffusionProfileSettings: {fileID: 0}
   virtualTexturingSettings:
     streamingCpuCacheSizeInMegaBytes: 256
